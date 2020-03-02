@@ -15,8 +15,7 @@ main()
     int len=d[0]-a[0];
     int br=b[1]-d[1];
     printf("Enter your option:\n");
-    /*scanf("%c",&ch);*/
-    ch='b';
+    scanf("%c",ch);
     switch(ch){
         case 'a': {
                     int x,y;
